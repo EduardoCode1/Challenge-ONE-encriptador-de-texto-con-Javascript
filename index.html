@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" href="alura-start-removebg-preview.png" type="image/x-icon">
+
+    <title class="titulo">Encriptador de Texto</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <!--biblioteca de Font Awesome delproyecto -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <img src="alura-start-removebg-preview.png" alt="" class="imagen-arriba-derecha">
+        <h1>Encriptador de Texto</h1>
+        <textarea id="input"></textarea> <!-- Elimina el texto-->
+        <!-- Aquí está el ícono y el mensaje -->
+        <p class="mensaje"><i class="fas fa-exclamation-circle"></i> Solo letras minúsculas y sin acentos</p>
+        <div class="buttons">
+            <button onclick="encriptar()">Encriptar</button>
+            <button onclick="desencriptar()">Desencriptar</button>
+            <button onclick="copiarAlPortapapeles()">Copiar</button>
+        </div>
+        <textarea id="output" readonly></textarea> <!-- Elimina el texto -->
+    </div>
+    <br>
+    <footer>
+        Creado por Dennis Eduardo Melara Zepeda - 2024
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
